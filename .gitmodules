@@ -1,0 +1,12 @@
+[submodule "3.1"]
+	path = 3.1
+	url = https://github.com/lc-leonardo/Workshop_EdgeAI.git
+[submodule "3.2"]
+	path = 3.2
+	url = https://github.com/lc-leonardo/Workshop_EdgeAI.git
+[submodule "5.1"]
+	path = 5.1
+	url = https://github.com/lc-leonardo/Workshop_EdgeAI.git
+[submodule "5.4"]
+	path = 5.4
+	url = https://github.com/lc-leonardo/Workshop_EdgeAI.git
