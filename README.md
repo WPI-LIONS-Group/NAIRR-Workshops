@@ -4,45 +4,43 @@
 
 ## About
 
-This repository includes workshop materials that reference the [Workshop_EdgeAI](https://github.com/lc-leonardo/Workshop_EdgeAI) repository as submodules for different workshop sections.
+This repository includes workshop materials that reference the [Workshop_EdgeAI](https://github.com/lc-leonardo/Workshop_EdgeAI) repository. The workshop folders (3.1, 3.2, 5.1, 5.4) are created as symbolic links (Mac/Linux) or directory junctions (Windows) to a single submodule located in `lib/Workshop_EdgeAI`.
 
-## Cloning the Repository
+## Setup Instructions
 
-This repository uses submodules with sparse-checkout to include only specific workshop folders from the [Workshop_EdgeAI](https://github.com/lc-leonardo/Workshop_EdgeAI) repository.
-
-### Clone with submodules
+### 1. Clone the Repository
 
 ```bash
 git clone --recurse-submodules https://github.com/Brian/NAIRR-Workshops.git
 cd NAIRR-Workshops
 ```
 
-### Configure sparse-checkout for submodules
-
-After cloning, configure sparse-checkout to only include the relevant workshop folders:
+If you've already cloned without submodules, initialize them:
 
 ```bash
-# Configure sparse-checkout for each submodule
-git -C .git/modules/3.1 config core.sparseCheckout true
-echo "3.1/*" > .git/modules/3.1/info/sparse-checkout
-cd 3.1 && git read-tree -mu HEAD && cd ..
-
-git -C .git/modules/3.2 config core.sparseCheckout true
-echo "3.2/*" > .git/modules/3.2/info/sparse-checkout
-cd 3.2 && git read-tree -mu HEAD && cd ..
-
-git -C .git/modules/5.1 config core.sparseCheckout true
-echo "5.1/*" > .git/modules/5.1/info/sparse-checkout
-cd 5.1 && git read-tree -mu HEAD && cd ..
-
-git -C .git/modules/5.4 config core.sparseCheckout true
-echo "5.4/*" > .git/modules/5.4/info/sparse-checkout
-cd 5.4 && git read-tree -mu HEAD && cd ..
+git submodule update --init --recursive
 ```
 
-### Updating submodules
+### 2. Create Workshop Links
 
-To update all submodules to the latest version:
+Run the appropriate setup script for your operating system:
+
+**Windows (PowerShell):**
+```powershell
+.\setup.ps1
+```
+
+**Mac/Linux (Bash):**
+```bash
+chmod +x setup.sh
+./setup.sh
+```
+
+This will create links for the workshop folders (3.1, 3.2, 5.1, 5.4) pointing to the corresponding directories in `lib/Workshop_EdgeAI`.
+
+### Updating Submodules
+
+To update the submodule to the latest version:
 
 ```bash
 git submodule update --remote
