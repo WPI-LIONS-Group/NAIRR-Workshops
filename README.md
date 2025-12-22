@@ -1,5 +1,11 @@
 # NAIRR-Workshops
 
+![Workshop Diagram](imgs/Diagram.png)
+
+## About
+
+This repository includes workshop materials that reference the [Workshop_EdgeAI](https://github.com/lc-leonardo/Workshop_EdgeAI) repository as submodules for different workshop sections.
+
 ## Cloning the Repository
 
 This repository contains submodules. To clone the repository along with all submodules, use one of the following methods:
