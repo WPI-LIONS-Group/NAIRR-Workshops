@@ -8,3 +8,6 @@ RUN pip3 install --no-cache -r requirements.txt
 
 RUN pip3 install --no-cache \
     jupyterhub==$JUPYTERHUB_VERSION
+
+RUN pip3 install --no-cache \
+    nbgitpuller
