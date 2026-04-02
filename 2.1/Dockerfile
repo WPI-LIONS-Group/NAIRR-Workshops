@@ -2,6 +2,8 @@ FROM quay.io/jupyter/minimal-notebook:python-3.11
 
 ARG JUPYTERHUB_VERSION=5.4.4
 
+WORKDIR /home/jovyan
+
 COPY . .
 
 RUN pip3 install --no-cache -r ./Intrusion-detection/requirements.txt
