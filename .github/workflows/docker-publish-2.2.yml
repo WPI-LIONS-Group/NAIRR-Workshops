@@ -1,4 +1,4 @@
-name: Docker
+name: Docker 2.2 Publish
 
 # This workflow uses actions that are not certified by GitHub.
 # They are provided by a third-party and are governed by
@@ -9,7 +9,7 @@ on:
   # schedule:
   #   - cron: '39 1 * * *'
   workflow_dispatch:
-  push:
+  # push:
     # branches: [ "main" ]
     # # Publish semver tags as releases.
     # tags: [ 'v*.*.*' ]
