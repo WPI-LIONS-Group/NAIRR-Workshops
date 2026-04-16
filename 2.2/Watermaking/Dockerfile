@@ -6,9 +6,9 @@ COPY ./requirements.txt .
 
 RUN pip3 install --no-cache -r requirements.txt
 
-RUN pip3 uninstall torch torchvision torchaudio
+# RUN pip3 uninstall torch torchvision torchaudio
 
-RUN pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu126
+RUN pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu126
 
 RUN pip3 install --no-cache \
     jupyterhub==$JUPYTERHUB_VERSION
