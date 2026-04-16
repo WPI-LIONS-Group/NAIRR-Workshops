@@ -2,9 +2,9 @@ FROM quay.io/jupyter/pytorch-notebook:cuda12-python-3.11
 
 ARG JUPYTERHUB_VERSION=5.4.4
 
-COPY ./requirements.txt .
+# COPY ./requirements.txt .
 
-RUN pip3 install --no-cache -r requirements.txt
+# RUN pip3 install --no-cache -r requirements.txt
 
 # RUN pip3 uninstall torch torchvision torchaudio
 
