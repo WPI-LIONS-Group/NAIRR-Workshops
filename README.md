@@ -1,6 +1,6 @@
 # NAIRR-Workshops
 
-![Workshop Diagram](imgs/Diagram.png)
+![Workshop Diagram](Diagram.png)
 
 ## About
 
