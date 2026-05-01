@@ -3,6 +3,19 @@
 ## Overview
 This workshop explores the security vulnerabilities and protection mechanisms in AI systems. Through hands-on notebooks, participants learn how adversaries can attack and exploit machine learning models — and how to defend against them. Topics span adversarial attacks, model inversion, and watermarking techniques for images, LLM-generated text, and trained models.
 
+## Slides
+- [Security of AI Development](00_Security_of_AI_Development.pptx) — Lecture slides covering adversarial threats, model inversion, and watermarking strategies
+
+## Notebooks
+| # | Notebook | Topic |
+|---|----------|-------|
+| 02 | [Adversarial Attacks](02_Adversarial_Attacks.ipynb) | FGSM, PGD, and C&W attacks on image classifiers |
+| 03 | [Adversarial Defense](03_Adversarial_Defense.ipynb) | Adversarial training and robustness evaluation on CIFAR-10 |
+| 04 | [Inversion](04_Inversion.ipynb) | Model inversion attacks and differential privacy defense |
+| 06 | [Digital Watermarking](06_Digital_Watermarking.ipynb) | DWT-DCT and RivaGAN image watermarking with PSNR/SSIM |
+| 08 | [LLM Watermarking](08_LLM_Watermarking.ipynb) | KGW scheme for watermarking AI-generated text |
+| 09 | [Model Watermarking](09_Model_Watermarking.ipynb) | Backdoor-based model watermarking for ownership verification |
+
 ## 📚 Notebooks
 
 ### Part 1: Adversarial Attacks & Defense

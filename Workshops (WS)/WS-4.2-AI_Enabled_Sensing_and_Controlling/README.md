@@ -3,6 +3,16 @@
 ## Overview
 This workshop introduces AI-powered perception and autonomous planning techniques used in robotics and intelligent systems. Participants learn how machines sense the world through cameras and LiDAR, and how classical AI search algorithms enable path planning and control. All notebooks use practical simulations and real-world data to ground abstract concepts.
 
+## Slides
+- [AI-Enabled Sensing and Controlling](00_AI_Enabled_Sensing_and_Controlling.pptx) — Lecture slides covering camera sensing, LiDAR perception, and AI-based search and planning
+
+## Notebooks
+| # | Notebook | Topic |
+|---|----------|-------|
+| 01 | [Camera Sensing](01_Camera_Sensing.ipynb) | Real-time vehicle detection on dashcam video with YOLOv3 |
+| 03 | [LiDAR Sensing](03_Lidar_Sensing.ipynb) | 2D LiDAR simulation, ray casting, and obstacle detection |
+| 04 | [Searching and Planning](04_Searching_and_Planning_Controlling.ipynb) | BFS, DFS, Dijkstra, and A* pathfinding on grid environments |
+
 ## 📚 Notebooks
 
 ### 1. **01_Camera_Sensing.ipynb** - Real-Time Object Detection with YOLOv3
