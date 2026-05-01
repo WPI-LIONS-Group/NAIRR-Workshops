@@ -1,0 +1,40 @@
+name: Workshop Sync
+
+on:
+  schedule:
+    - cron: '0 0 * * 0'  # Run once a week on Sunday at midnight UTC
+  workflow_dispatch:  # Allow manual trigger
+
+jobs:
+  sync-workshops:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout main branch
+        uses: actions/checkout@v3
+        with:
+          ref: main
+
+      - name: Clone external workshop repository
+        run: |
+          git clone https://github.com/lc-leonardo/Workshop_EdgeAI /tmp/Workshop_EdgeAI
+
+      - name: Copy and rename workshop folders
+        run: |
+          # Create WS directory if it doesn't exist
+          mkdir -p Workshops
+          
+          # Copy and rename folders according to naming convention
+          cp -r /tmp/Workshop_EdgeAI/3.1 "Workshops (WS)/WS_3.1_Efficient_Inference_for_Edge_AI"
+          cp -r /tmp/Workshop_EdgeAI/3.2 "Workshops (WS)/WS_3.2_Domain-Specific_Optimization_in_Edge_AI"
+          cp -r /tmp/Workshop_EdgeAI/5.1 "Workshops (WS)/WS_5.1_Case_Study_Edge_AI_and_Cybersecurity_in_Action"
+          cp -r /tmp/Workshop_EdgeAI/5.4 "Workshops (WS)/WS_5.2_Case_Study_Cyber_Security_in_Autonomous_Driving"
+
+      - name: Commit and push changes
+        run: |
+          git config --global user.email "action@github.com"
+          git config --global user.name "GitHub Action"
+          git add Workshops/
+          git commit -m "Sync workshops from external repository" || echo "No changes to commit"
+          git push origin main
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
