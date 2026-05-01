@@ -5,6 +5,9 @@ on:
     - cron: '0 0 * * 0'  # Run once a week on Sunday at midnight UTC
   workflow_dispatch:  # Allow manual trigger
 
+permissions:
+  contents: write
+
 jobs:
   sync-workshops:
     runs-on: ubuntu-latest
@@ -33,7 +36,7 @@ jobs:
         run: |
           git config --global user.email "action@github.com"
           git config --global user.name "GitHub Action"
-          git add Workshops/
+          git add "Workshops (WS)/"
           git commit -m "Sync workshops from external repository" || echo "No changes to commit"
           git push origin main
         env:
