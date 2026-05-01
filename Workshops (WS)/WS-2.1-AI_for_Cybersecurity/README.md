@@ -117,7 +117,7 @@ All models in Notebook 1 are trained on the same 42-feature set:
 
 ### Prerequisites
 ```bash
-pip install -r 03_requirements.txt
+pip install -r 04_requirements.txt
 ```
 
 Key dependencies:
