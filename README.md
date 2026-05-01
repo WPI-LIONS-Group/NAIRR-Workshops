@@ -3,7 +3,6 @@
 ![Workshop Diagram](Diagram.png)
 
 ## About
-
 This repository contains hands-on workshop materials for the NAIRR (National AI Research Resource) program, developed by **Worcester Polytechnic Institute (WPI)** and **Oakland University (OU)**. Workshops cover AI for cybersecurity, security of AI systems, AI-enabled sensing and control, and efficient Edge AI.
 
 This repository is maintained by the **LIONS Group** at WPI as part of the broader **CARE-AI** team.
@@ -17,7 +16,6 @@ This repository is maintained by the **LIONS Group** at WPI as part of the broad
 ![LIONS Group Team](LIONS%20Group%20Team.png)
 
 ## Getting Started
-
 Clone the repository and open any workshop folder:
 
 ```bash
@@ -28,11 +26,22 @@ cd NAIRR-Workshops
 Each workshop folder contains Jupyter notebooks and a `requirements.txt` (or equivalent) for installing dependencies. Install dependencies for a specific workshop before running its notebooks.
 
 ## Workshops
-
 All workshops are located in the `Workshops (WS)/` directory.
 
-### Hosted in This Repository
+## 📖 Workshop READMEs
+Detailed documentation for each workshop can be found in the links below. Workshops marked *README coming soon* do not yet have a dedicated README.
 
+| Workshop | README |
+| --- | --- |
+| `WS-2.1-AI_for_Cybersecurity` | [README](Workshops%20(WS)/WS-2.1-AI_for_Cybersecurity/README.md) |
+| `WS-2.2-Security_of_AI_Development` | [README](Workshops%20(WS)/WS-2.2-Security_of_AI_Development/README.md) |
+| `WS-4.2-AI_Enabled_Sensing_and_Controlling` | [README](Workshops%20(WS)/WS-4.2-AI_Enabled_Sensing_and_Controlling/README.md) |
+| `WS_3.1_Efficient_Inference_for_Edge_AI` | [README](Workshops%20(WS)/WS_3.1_Efficient_Inference_for_Edge_AI/README.md) |
+| `WS_3.2_Domain-Specific_Optimization_in_Edge_AI` | [README](Workshops%20(WS)/WS_3.2_Domain-Specific_Optimization_in_Edge_AI/README.md) |
+| `WS_5.1_Case_Study_Edge_AI_and_Cybersecurity_in_Action` | [README](Workshops%20(WS)/WS_5.1_Case_Study_Edge_AI_and_Cybersecurity_in_Action/README.md) |
+| `WS_5.2_Case_Study_Cyber_Security_in_Autonomous_Driving` | [README](Workshops%20(WS)/WS_5.2_Case_Study_Cyber_Security_in_Autonomous_Driving/README.md) |
+
+### Hosted in This Repository
 | Folder | Topic |
 |--------|-------|
 | `WS-2.1-AI_for_Cybersecurity` | Binary classification and vulnerability detection using the NSL-KDD dataset |
@@ -40,9 +49,7 @@ All workshops are located in the `Workshops (WS)/` directory.
 | `WS-4.2-AI_Enabled_Sensing_and_Controlling` | Camera sensing, LiDAR sensing, and AI-based search and planning |
 
 ### Synced from [Workshop_EdgeAI](https://github.com/lc-leonardo/Workshop_EdgeAI)
-
 These workshops are automatically synced weekly from an external repository via GitHub Actions:
-
 | Folder | Topic |
 |--------|-------|
 | `WS_3.1_Efficient_Inference_for_Edge_AI` | Quantization, pruning, and knowledge distillation |
