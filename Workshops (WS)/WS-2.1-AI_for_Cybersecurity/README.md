@@ -10,7 +10,7 @@ This workshop introduces machine learning and deep learning techniques applied t
 | # | Notebook | Topic |
 |---|----------|-------|
 | 03 | [Binary Predictions](03_Binary_Predictions.ipynb) | Network intrusion detection with Logistic Regression, SVM, Random Forest, XGBoost, and DNN |
-| 04 | [Vulnerability Detection](04_Vulnerability_Detection.ipynb) | Code vulnerability detection with Bi-LSTM and attention mechanism |
+| 05 | [Vulnerability Detection](05_Vulnerability_Detection.ipynb) | Code vulnerability detection with Bi-LSTM and attention mechanism |
 
 ## 📚 Notebooks
 
@@ -45,7 +45,7 @@ This workshop introduces machine learning and deep learning techniques applied t
 
 ---
 
-### 2. **04_Vulnerability_Detection.ipynb** - Deep Learning for Code Vulnerability Detection
+### 2. **05_Vulnerability_Detection.ipynb** - Deep Learning for Code Vulnerability Detection
 **Focus**: Identifying vulnerable C functions using a Bidirectional LSTM with a custom attention mechanism, trained on real-world software repository data.
 
 **Key Features**:
@@ -111,7 +111,7 @@ All models in Notebook 1 are trained on the same 42-feature set:
 | Notebook | Topic | Focus Area |
 |----------|-------|------------|
 | **03_Binary_Predictions** | Network Intrusion Detection | Classical ML + deep learning on NSL-KDD |
-| **04_Vulnerability_Detection** | Code Vulnerability Detection | Bi-LSTM + attention on C source code |
+| **05_Vulnerability_Detection** | Code Vulnerability Detection | Bi-LSTM + attention on C source code |
 
 ## 🚀 Getting Started
 
@@ -131,8 +131,8 @@ Key dependencies:
 ### Running the Notebooks
 1. Both notebooks are self-contained and can be run independently
 2. **Notebook 03** reads from the local `00_nsl-kdd_dataset/KDDTrain+.txt` file — no download needed
-3. **Notebook 04** downloads the MSR vulnerability dataset automatically from HuggingFace on first run
-4. A GPU is recommended for Notebook 04 (Bi-LSTM training); CPU is sufficient for Notebook 03
+3. **Notebook 05** downloads the MSR vulnerability dataset automatically from HuggingFace on first run
+4. A GPU is recommended for Notebook 05 (Bi-LSTM training); CPU is sufficient for Notebook 03
 
 ### Dataset Files
 The `00_nsl-kdd_dataset/` folder includes:
