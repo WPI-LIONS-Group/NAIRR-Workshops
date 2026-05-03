@@ -1,0 +1,326 @@
+{
+  "timestamp": "2025-08-07T18:25:30.307490",
+  "system_info": {
+    "model_type": "EdgeSecurityNet",
+    "alert_threshold": 0.8,
+    "stream_delay": 0.2
+  },
+  "statistics": {
+    "total_samples": 30,
+    "benign_predictions": 26,
+    "malicious_predictions": 4,
+    "high_confidence_alerts": 4,
+    "start_time": "2025-08-07 18:24:56.608111",
+    "runtime_seconds": 33.699388,
+    "detection_rate": 13.333333333333334
+  },
+  "alerts": [
+    {
+      "timestamp": "2025-08-07 18:24:58.171537",
+      "alert_id": "ALERT_0001",
+      "threat_level": "HIGH",
+      "confidence": 0.9999597072601318,
+      "sample_data": {
+        "feature_1": 1.0030325893743992,
+        "feature_2": 0.3991475894833876,
+        "feature_3": 0.6499639307777652,
+        "feature_4": 0.5129653176356218,
+        "feature_5": 0.7101092403639536,
+        "feature_6": 0.092478871551097,
+        "feature_7": 0.6300749386010076,
+        "feature_8": 1.7629374723032283,
+        "feature_9": 0.23095372294513286,
+        "feature_10": 0.8089368913903612,
+        "feature_11": 1.0574235088623762,
+        "feature_12": 0.05136085947963537,
+        "feature_13": 0.8724471576604531,
+        "feature_14": 1.0661985440977382,
+        "feature_15": 0.9590080964267789,
+        "feature_16": 1.3820046041719432,
+        "feature_17": 0.9051219599565592,
+        "feature_18": 0.6039043724845287,
+        "feature_19": 0.30444911987085255,
+        "feature_20": 0.2572074909801068,
+        "feature_21": 0.02393181446583695
+      },
+      "description": "Potential cybersecurity threat detected with 100.0% confidence"
+    },
+    {
+      "timestamp": "2025-08-07 18:24:59.171537",
+      "alert_id": "ALERT_0002",
+      "threat_level": "HIGH",
+      "confidence": 0.9957881569862366,
+      "sample_data": {
+        "feature_1": 0.2022453522455805,
+        "feature_2": 0.04205340305749872,
+        "feature_3": 0.70096913145912,
+        "feature_4": 0.2710404622885425,
+        "feature_5": 0.6130946829083779,
+        "feature_6": 1.9123176398399706,
+        "feature_7": 1.065227082546918,
+        "feature_8": 1.792045100135215,
+        "feature_9": 0.4467735117899077,
+        "feature_10": 1.2049229217785742,
+        "feature_11": 1.196660469213522,
+        "feature_12": 0.7706783295231111,
+        "feature_13": 0.6670561034697914,
+        "feature_14": 0.6991465780919173,
+        "feature_15": 0.008817046245807649,
+        "feature_16": 2.0900177486302796,
+        "feature_17": 1.7704315165667186,
+        "feature_18": 0.3090925091969218,
+        "feature_19": 0.8038130513762585,
+        "feature_20": 0.6138413414754245,
+        "feature_21": 1.3578807880999881
+      },
+      "description": "Potential cybersecurity threat detected with 99.6% confidence"
+    },
+    {
+      "timestamp": "2025-08-07 18:25:01.571537",
+      "alert_id": "ALERT_0003",
+      "threat_level": "HIGH",
+      "confidence": 0.9920616149902344,
+      "sample_data": {
+        "feature_1": 0.7980054077402605,
+        "feature_2": 0.027380819411015667,
+        "feature_3": 0.3351972416459009,
+        "feature_4": 0.18053084180543139,
+        "feature_5": 2.6435715833985505,
+        "feature_6": 0.20284621967015248,
+        "feature_7": 0.046915434950258676,
+        "feature_8": 1.7821636185360787,
+        "feature_9": 0.5902746190617881,
+        "feature_10": 0.2168610369829383,
+        "feature_11": 0.44211666531347293,
+        "feature_12": 0.2502439325736485,
+        "feature_13": 1.139754428156706,
+        "feature_14": 1.3414451577996975,
+        "feature_15": 1.8868281121242367,
+        "feature_16": 0.1838833519051575,
+        "feature_17": 0.1000954425796983,
+        "feature_18": 0.0902276640562097,
+        "feature_19": 0.7810732676164527,
+        "feature_20": 2.5386911017374865,
+        "feature_21": 0.5239526671077938
+      },
+      "description": "Potential cybersecurity threat detected with 99.2% confidence"
+    },
+    {
+      "timestamp": "2025-08-07 18:25:01.971537",
+      "alert_id": "ALERT_0004",
+      "threat_level": "HIGH",
+      "confidence": 0.9950339794158936,
+      "sample_data": {
+        "feature_1": 1.3178478838203027,
+        "feature_2": 0.013547996251741745,
+        "feature_3": 0.22197216193294944,
+        "feature_4": 2.569926839690334,
+        "feature_5": 1.1071044546000215,
+        "feature_6": 1.388582269040288,
+        "feature_7": 2.6593513570493728,
+        "feature_8": 2.078376654918943,
+        "feature_9": 1.2406400776875708,
+        "feature_10": 1.1775283652749364,
+        "feature_11": 0.20370179813884956,
+        "feature_12": 0.28984226416846787,
+        "feature_13": 0.2548212683723646,
+        "feature_14": 0.14987796676246168,
+        "feature_15": 0.5277647609316608,
+        "feature_16": 0.8332238776207417,
+        "feature_17": 1.326539016109759,
+        "feature_18": 0.3618909712330037,
+        "feature_19": 0.06958982291301025,
+        "feature_20": 0.4853159965604532,
+        "feature_21": 0.7726671422734709
+      },
+      "description": "Potential cybersecurity threat detected with 99.5% confidence"
+    }
+  ],
+  "prediction_history": [
+    {
+      "timestamp": "2025-08-07 18:24:56.571537",
+      "prediction": 0,
+      "confidence": 0.0019826970528811216,
+      "actual_label": 0
+    },
+    {
+      "timestamp": "2025-08-07 18:24:56.771537",
+      "prediction": 0,
+      "confidence": 0.0022170953452587128,
+      "actual_label": 0
+    },
+    {
+      "timestamp": "2025-08-07 18:24:56.971537",
+      "prediction": 0,
+      "confidence": 0.08500520139932632,
+      "actual_label": 1
+    },
+    {
+      "timestamp": "2025-08-07 18:24:57.171537",
+      "prediction": 0,
+      "confidence": 0.002072195988148451,
+      "actual_label": 1
+    },
+    {
+      "timestamp": "2025-08-07 18:24:57.371537",
+      "prediction": 0,
+      "confidence": 0.0008411742746829987,
+      "actual_label": 1
+    },
+    {
+      "timestamp": "2025-08-07 18:24:57.571537",
+      "prediction": 0,
+      "confidence": 0.246572345495224,
+      "actual_label": 0
+    },
+    {
+      "timestamp": "2025-08-07 18:24:57.771537",
+      "prediction": 0,
+      "confidence": 0.0008128812187351286,
+      "actual_label": 0
+    },
+    {
+      "timestamp": "2025-08-07 18:24:57.971537",
+      "prediction": 0,
+      "confidence": 0.0031909083481878042,
+      "actual_label": 0
+    },
+    {
+      "timestamp": "2025-08-07 18:24:58.171537",
+      "prediction": 1,
+      "confidence": 0.9999597072601318,
+      "actual_label": 0
+    },
+    {
+      "timestamp": "2025-08-07 18:24:58.371537",
+      "prediction": 0,
+      "confidence": 0.0009428432094864547,
+      "actual_label": 0
+    },
+    {
+      "timestamp": "2025-08-07 18:24:58.571537",
+      "prediction": 0,
+      "confidence": 0.0007910029380582273,
+      "actual_label": 0
+    },
+    {
+      "timestamp": "2025-08-07 18:24:58.771537",
+      "prediction": 0,
+      "confidence": 0.0010964835528284311,
+      "actual_label": 0
+    },
+    {
+      "timestamp": "2025-08-07 18:24:58.971537",
+      "prediction": 0,
+      "confidence": 0.054752204567193985,
+      "actual_label": 1
+    },
+    {
+      "timestamp": "2025-08-07 18:24:59.171537",
+      "prediction": 1,
+      "confidence": 0.9957881569862366,
+      "actual_label": 0
+    },
+    {
+      "timestamp": "2025-08-07 18:24:59.371537",
+      "prediction": 0,
+      "confidence": 0.19575385749340057,
+      "actual_label": 1
+    },
+    {
+      "timestamp": "2025-08-07 18:24:59.571537",
+      "prediction": 0,
+      "confidence": 0.0015136415604501963,
+      "actual_label": 0
+    },
+    {
+      "timestamp": "2025-08-07 18:24:59.771537",
+      "prediction": 0,
+      "confidence": 0.015455135144293308,
+      "actual_label": 1
+    },
+    {
+      "timestamp": "2025-08-07 18:24:59.971537",
+      "prediction": 0,
+      "confidence": 0.01582895778119564,
+      "actual_label": 0
+    },
+    {
+      "timestamp": "2025-08-07 18:25:00.171537",
+      "prediction": 0,
+      "confidence": 0.0018353123450651765,
+      "actual_label": 1
+    },
+    {
+      "timestamp": "2025-08-07 18:25:00.371537",
+      "prediction": 0,
+      "confidence": 0.0012157503515481949,
+      "actual_label": 1
+    },
+    {
+      "timestamp": "2025-08-07 18:25:00.571537",
+      "prediction": 0,
+      "confidence": 0.008075024001300335,
+      "actual_label": 1
+    },
+    {
+      "timestamp": "2025-08-07 18:25:00.771537",
+      "prediction": 0,
+      "confidence": 0.0014249335508793592,
+      "actual_label": 0
+    },
+    {
+      "timestamp": "2025-08-07 18:25:00.971537",
+      "prediction": 0,
+      "confidence": 0.0009609139524400234,
+      "actual_label": 1
+    },
+    {
+      "timestamp": "2025-08-07 18:25:01.171537",
+      "prediction": 0,
+      "confidence": 0.0008753730216994882,
+      "actual_label": 0
+    },
+    {
+      "timestamp": "2025-08-07 18:25:01.371537",
+      "prediction": 0,
+      "confidence": 0.0016278860857710242,
+      "actual_label": 1
+    },
+    {
+      "timestamp": "2025-08-07 18:25:01.571537",
+      "prediction": 1,
+      "confidence": 0.9920616149902344,
+      "actual_label": 0
+    },
+    {
+      "timestamp": "2025-08-07 18:25:01.771537",
+      "prediction": 0,
+      "confidence": 0.0014506909064948559,
+      "actual_label": 0
+    },
+    {
+      "timestamp": "2025-08-07 18:25:01.971537",
+      "prediction": 1,
+      "confidence": 0.9950339794158936,
+      "actual_label": 0
+    },
+    {
+      "timestamp": "2025-08-07 18:25:02.171537",
+      "prediction": 0,
+      "confidence": 0.008375806733965874,
+      "actual_label": 0
+    },
+    {
+      "timestamp": "2025-08-07 18:25:02.371537",
+      "prediction": 0,
+      "confidence": 0.0008657202706672251,
+      "actual_label": 0
+    }
+  ],
+  "edge_performance": {
+    "avg_cpu": 49.11856087149333,
+    "avg_memory": 54.87690633355382,
+    "avg_inference_time": 0.05964371128397515
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "input_dim": 21,
+  "architecture": "32 \u2192 16 \u2192 1 (V2 Regularized)",
+  "total_parameters": 1345,
+  "accuracy": 0.9925,
+  "f1_score": 0.9810126582278481,
+  "inference_time_ms": 0.0006091594696044922,
+  "model_size_mb": 0.011122703552246094
+}
