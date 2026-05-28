@@ -1,0 +1,29 @@
+# Requirements for 03_Lidar_Sensing.ipynb
+# Compatible with Python 3.10+ including Python 3.13
+#
+# Python 3.13 minimum version notes:
+#   torch     >= 2.5.0  (first release with cp313 wheels)
+#   numpy     >= 2.1.0  (first release with cp313 wheels)
+#   matplotlib>= 3.9.2  (first release with cp313 wheels)
+#   shapely   >= 2.0.6  (first release with cp313 wheels)
+
+# --- Section 1 & 2: LiDAR simulation ---
+numpy>=2.1.0
+matplotlib>=3.9.2
+shapely>=2.0.6
+PyYAML>=6.0.1
+
+# --- Section 3: RL driving demo ---
+torch>=2.5.0
+gymnasium>=1.0.0
+highway-env>=1.9.1
+stable-baselines3>=2.3.0
+tensorboard>=2.14.0
+
+# --- Utilities ---
+tqdm>=4.66.0
+imageio[ffmpeg]>=2.33.0
+
+# --- Jupyter runtime ---
+notebook>=7.0.0
+ipywidgets>=8.0.0
